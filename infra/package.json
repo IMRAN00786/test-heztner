@@ -1,0 +1,17 @@
+{
+  "name": "infra",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "up": "pulumi up",
+    "preview": "pulumi preview",
+    "destroy": "pulumi destroy"
+  },
+  "devDependencies": {
+    "@pulumi/pulumi": "^3.0.0",
+    "@pulumi/hcloud": "^1.0.0",
+    "@pulumi/command": "^1.0.0",
+    "typescript": "^5.0.0"
+  }
+}
